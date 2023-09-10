@@ -1,0 +1,166 @@
+/* Estilo do cabeçalho */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  nav ul li a:hover {
+    color: #235f31;
+  }
+  
+  /* Estilo da seção de destaque */
+  .hero {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    padding: 10px 20px;
+    background-color: #235f31;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #235f31;
+  }
+  
+  /* Estilo da seção de recursos e benefícios */
+  .features {
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  
+  .features h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    text-align: center;
+    color: #666666;
+  }
+  
+  /* Estilo da seção de formulário de inscrição na newsletter */
+  .newsletter {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter p {
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: #235f31;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #235f31;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+  
